@@ -16,5 +16,5 @@ app.use("/api", routsurl);
 
 const port=process.env.PORT ;
 app.listen(port, () => {
-  console.log(`Server is running in port: ${PORT}`);
+  console.log(`Server is running in port: ${port}`);
 });
